@@ -6,7 +6,7 @@ import srsly
 from spacy.tokens import Doc, Span
 
 from ..context.context_rule import ConTextRule
-from ..utility.util import tuple_overlaps
+from ..utility_context.util import tuple_overlaps
 
 
 class ConTextModifier:
