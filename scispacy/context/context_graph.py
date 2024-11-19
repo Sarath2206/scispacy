@@ -6,7 +6,7 @@ import srsly
 from spacy.tokens import Span
 
 from ..context import ConTextModifier
-from ..utility.util import tuple_overlaps
+from ..utility_context.util import tuple_overlaps
 
 
 class ConTextGraph:
