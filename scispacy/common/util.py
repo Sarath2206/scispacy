@@ -7,7 +7,7 @@ from typing import Union, Tuple, List
 
 from spacy.tokens import Doc, Span, Token
 
-from ..utility.util import tuple_overlaps
+from ..utility_context.util import tuple_overlaps
 
 
 def span_contains(
